@@ -1,0 +1,38 @@
+{
+  "name": "symfony-y-laravel",
+  "version": "1.0.0",
+  "description": "Presenting Symfony and Laravel.",
+  "private": true,
+  "scripts": {
+    "build": "webpack",
+    "build-dev": "webpack --mode development",
+    "test": "mocha test/**/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/greenhollow/symfony-y-laravel.git"
+  },
+  "author": "Israel J. Carberry",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/greenhollow/symfony-y-laravel/issues"
+  },
+  "homepage": "https://github.com/greenhollow/symfony-y-laravel#readme",
+  "devDependencies": {
+    "@types/chai": "^4.3.5",
+    "@types/mocha": "^10.0.1",
+    "chai": "^4.3.7",
+    "css-loader": "^6.7.3",
+    "jsdom": "^22.0.0",
+    "mini-css-extract-plugin": "^2.7.5",
+    "mocha": "^10.2.0",
+    "sass": "^1.62.1",
+    "sass-loader": "^13.2.2",
+    "style-loader": "^3.3.2",
+    "ts-loader": "^9.4.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4",
+    "webpack": "^5.82.0",
+    "webpack-cli": "^5.1.0"
+  }
+}

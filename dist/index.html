@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Symfony & Laravel</title>
+    <link rel="stylesheet" href="main.css" />
+</head>
+<body>
+    <h1><a href="docs/index.md">Symfony & Laravel</a></h1>
+
+    <ol>
+        <li>
+            <h2>
+                <a href="docs/model-0.md">Model</a>
+                <a href="docs/model-1.md">&nbsp;</a>
+            </h2>
+            <!--
+            * Mass assignable and other model magic v. model state machine
+                * query builder scope methods
+                * appends array / getXyzAttribute() v. unmapped properties
+            -->
+            <li>
+                <h3>Symfony: Doctrine</h3>
+                <li>Schema</li>
+                <li>Relations</li>
+                <li>Repositories</li>
+                <li>Query Builder</li>
+                <li>The State Machine</li>
+            </li>
+            <li>
+                <h3>Laravel: Eloquent</h3>
+                <li>Attributes</li>
+                <li>Relations</li>
+                <li>Repositories</li>
+                <li>Query Builder</li>
+                <li>The Swiss Army Knife</li>
+            </li>
+        </li>
+        <li>
+            <h2>View</h2>
+            <li>Symfony: Views</li>
+            <li>Laravel: Resources</li>
+        </li>
+        <li>
+            <h2>Controller</h2>
+            <li>
+                <h3>The Container</h3>
+                <!--
+                * Facades v. DI
+                    * And thus integration "unit" v. actual unit testing
+                    * Test dependency on facades (Error: Typed property App\Services\MyService::$logger must not be accessed before initialization)
+                -->
+                <li>Symfony: Dependency Injection</li>
+                <li>Laravel: Facades</li>
+            </li>
+            <li>
+                <h3>The Request</h3>
+                <!--
+                * Request input() v. get()
+                -->
+                <li>Symfony: Request</li>
+                <li>Laravel: Form Request</li>
+            </li>
+            <li>
+                <h3>Access Control</h3>
+                <!--
+                * Policies v. Voters
+                    * /Illuminate/Auth/Access/Gate callback resolution chain of pain
+                    * unit and integration testing
+                -->
+                <li>Symfony: Voters</li>
+                <li>Laravel: Policies</li>
+            </li>
+        </li>
+        <li>
+            <h2>Testing</h2>
+            <li>Integration</li>
+            <li>Unit</li>
+        </li>
+        <li>
+            <h2>Engineering</h2>
+            <!--
+            * Other black magic impact
+                * Hard to follow method paths via IDE, e.g. model class -> factory
+                * Hard to use full feature set available unless memorized, leads to janking implementations to fit what you remember, e.g. reportO for logging (and other helpers.php methods that target all-things-to-all-people things, like Illuminate\Foundation\Exceptions\Handler::report())
+            -->
+            <li>Engineers</li>
+            <li>Purpose</li>
+        </li>
+    </ol>
+
+    <script src="main.js"></script>
+    <script>
+        const tableOfContents = new TableOfContents();
+        tableOfContents.loadDOM();
+    </script>
+</body>
+</html>
