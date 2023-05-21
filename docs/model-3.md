@@ -5,7 +5,7 @@
 </div>
 <div style="float: left;">
 
-[<](./model-2.md)
+[<](./model-2.1.md)
 
 </div>
 
