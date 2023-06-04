@@ -21,7 +21,7 @@ Now You See Me: Serials & Resources
 
 Symfony | Laravel
 :---:|:---:
-Serialized Entities | Normalized Query Results
+[Serialized Entities](https://symfony.com/doc/current/controller.html#returning-json-response) | [Normalized Query Results](https://laravel.com/docs/10.x/eloquent-serialization#serializing-to-json)
 &nbsp; |
 &nbsp; |
 &nbsp; |
