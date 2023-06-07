@@ -1,11 +1,11 @@
 <div style="float: right;">
 
-[>](./testing-1.md)
+[>](./testing-2.md)
 
 </div>
 <div style="float: left;">
 
-[<](./index-4.md)
+[<](./testing-0.md)
 
 </div>
 
@@ -15,3 +15,6 @@ Testing
 =======
 
 </center>
+
+&bull; Facades speed delivery and slow testing
+-------
